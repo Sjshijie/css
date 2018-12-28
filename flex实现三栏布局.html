@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+        }
+        .left {
+            background-color: aqua;
+            width: 300px;
+            height: 100px;
+        }
+
+        .center {
+            height: 100px;
+            flex: 1;
+            background: #f296ff;
+        }
+
+        .right {
+            height: 100px;
+            background-color: #6ee28d;
+            width: 300px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- 已知高度，写出三栏布局，左右宽度300px，中间自适应-->
+    <div class="container">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+    </div>
+</body>
+
+</html>
