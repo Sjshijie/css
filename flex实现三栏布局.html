@@ -31,6 +31,20 @@
             background-color: #6ee28d;
             width: 300px;
         }
+
+        .list{
+            line-height: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height:100px;
+        }
+
+        .list li{
+            list-style: none;
+            float: left;
+            margin-left:50px
+        }
     </style>
 </head>
 
@@ -39,7 +53,15 @@
     <!-- 已知高度，写出三栏布局，左右宽度300px，中间自适应-->
     <div class="container">
         <div class="left"></div>
-        <div class="center"></div>
+        <div class="center">
+            <ul class="list">
+                <li>sdfsdf</li>
+                <li>sdfsdf</li>
+                <li>sdfsdf</li>
+                <li>sdfsdf</li>
+                <li>sdfsdf</li>
+            </ul>
+        </div>
         <div class="right"></div>
     </div>
 </body>
